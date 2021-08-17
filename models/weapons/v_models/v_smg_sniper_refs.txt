@@ -1,0 +1,7 @@
+importfilelist
+{
+	"file"	"models/player/sniper/sniper_red_is_unused.vmt"
+	"file"	"models/player/sniper/sniper_handL_red_is_unused.vmt"
+	"file"	"models/weapons/v_smg/v_smg_is_unused.vmt"
+	"file"	"models/player/sniper/sniper_blue_is_unused.vmt"
+}

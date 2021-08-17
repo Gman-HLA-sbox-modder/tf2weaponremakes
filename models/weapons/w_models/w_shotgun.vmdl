@@ -1,0 +1,193 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "bonemask_default"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "weapon_bone"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "hold_r"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "pump_handle"
+								origin = [ 0.0, 1.394091, 25.96583 ]
+								angles = [ -0.0, 0.0, 0.0 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -88.54644, 119.487457, 150.583221 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "models/weapons/w_shotgun/w_shotgun_is_unused.vmat"
+								to = "materials/weapons/v_shotgun/v_shotgun.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsBodyMarkupList"
+				children = 
+				[
+					{
+						_class = "PhysicsBodyMarkup"
+						target_body = ""
+						mass_override = 1.0
+						inertia_scale = 1.0
+						linear_damping = 0.0
+						angular_damping = 0.0
+						use_mass_center_override = false
+						mass_center_override = [ 0.0, 0.0, 0.0 ]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						name = "w_shotgun_reference_0_mesh"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = true
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "models/weapons/w_models/w_shotgun_refs/phys/w_shotgun_phy.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = true
+							exception_list = 
+							[
+								"w_shotgun_reference_0_mesh",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle"
+						parent_bone = "weapon_bone"
+						relative_origin = [ 0.00019, 3.725432, 34.919266 ]
+						relative_angles = [ -90.0, -0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "weapon_bone"
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.249407, -3.852861, -4.332169 ]
+								hitbox_maxs = [ 1.253593, 4.956488, 34.930931 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "weapon_bone_1"
+								surface_property = "metal"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.975361, -2.292186, -6.551537 ]
+								hitbox_maxs = [ 1.975361, 1.909878, 5.179121 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "w_shotgun_bg_w_shotgun_lod0"
+						filename = "models/weapons/w_models/w_shotgun_refs/mesh/w_shotgun_bg_w_shotgun_lod0.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

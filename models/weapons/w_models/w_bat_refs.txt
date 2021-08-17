@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"models/weapons/w_bat/w_bat_is_unused.vmt"
+}

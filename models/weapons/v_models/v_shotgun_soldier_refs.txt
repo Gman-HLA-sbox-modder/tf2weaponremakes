@@ -1,0 +1,7 @@
+importfilelist
+{
+	"file"	"models/player/soldier/soldier_hands_is_unused.vmt"
+	"file"	"models/player/soldier/soldier_sleeves_red_is_unused.vmt"
+	"file"	"models/weapons/v_shotgun/v_shotgun_is_unused.vmt"
+	"file"	"soldier_sleeves_blue_is_unused.vmt"
+}

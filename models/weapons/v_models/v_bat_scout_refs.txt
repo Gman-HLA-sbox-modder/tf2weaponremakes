@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"models/player/scout/scout_hands_is_unused.vmt"
+	"file"	"models/weapons/v_bat/v_bat_is_unused.vmt"
+}

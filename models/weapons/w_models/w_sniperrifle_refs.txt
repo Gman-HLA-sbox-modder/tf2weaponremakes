@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"models/weapons/w_sniperrifle/w_sniperrifle01_is_unused.vmt"
+	"file"	"w_sniperrifle01_gold_is_unused.vmt"
+}

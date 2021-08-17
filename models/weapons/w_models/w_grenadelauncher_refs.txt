@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"models/weapons/w_grenadelauncher/w_grenadelauncher_is_unused.vmt"
+	"file"	"w_grenadelauncher_gold_is_unused.vmt"
+}
