@@ -2,22 +2,22 @@
 {
 	data = 
 	{
-		Base = ""
+		Base = "default"
 		Friction = 0.8
-		Elasticity = 0.05
-		Density = 2000.0
+		Elasticity = 0.4
+		Density = 1400.0
 		Thickness = -1.0
 		Dampening = 0.0
 		ImpactEffects = 
 		{
 			Regular = [  ]
-			Bullet = 
-			[
-				resource:"particles/impact.generic.vpcf",
-			]
 			BulletDecal = 
 			[
-				"decals/bullethole.decal",
+				"decals/bullet-rubber.decal",
+			]
+			Bullet = 
+			[
+				resource:"particles/pistol_muzzleflash.vpcf",
 			]
 		}
 		Sounds = 
@@ -27,11 +27,11 @@
 			FootLaunch = "grenade.impact"
 			FootLand = "grenade.impact"
 			Bullet = "grenade.impact"
-			ImpactHard = "grenade.impact"
 			SmoothScrape = "grenade.impact"
 			RoughScrape = "grenade.impact"
 			ImpactSoft = "grenade.impact"
+			ImpactHard = "grenade.impact"
 		}
-		BounceThreshold = 59.6
+		BounceThreshold = 69.0
 	}
 }

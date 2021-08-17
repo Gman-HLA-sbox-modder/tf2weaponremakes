@@ -72,7 +72,7 @@
 					{
 						_class = "PhysicsHullFromRender"
 						parent_bone = ""
-						surface_prop = "pipebomb"
+						surface_prop = "grenadelauncher_grenade"
 						collision_prop = "default"
 						faceMergeAngle = 20.0
 						maxHullVertices = 32
