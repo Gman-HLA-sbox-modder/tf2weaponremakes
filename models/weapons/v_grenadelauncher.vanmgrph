@@ -151,7 +151,7 @@
 			{
 				_class = "CSequenceAnimNode"
 				m_sName = "Unnamed"
-				m_vecPosition = [ -618.0, -119.0 ]
+				m_vecPosition = [ -619.0, -119.0 ]
 				m_nNodeID = 
 				{
 					m_id = 1421775535
@@ -159,7 +159,7 @@
 				m_networkMode = "ClientSimulate"
 				m_sNote = ""
 				m_tagSpans = [  ]
-				m_sequenceName = "@draw"
+				m_sequenceName = "draw"
 				m_playbackSpeed = 2.0
 				m_bLoop = false
 			}
@@ -181,7 +181,7 @@
 				m_networkMode = "ClientSimulate"
 				m_sNote = ""
 				m_tagSpans = [  ]
-				m_sequenceName = "@fire"
+				m_sequenceName = "fire"
 				m_playbackSpeed = 1.0
 				m_bLoop = false
 			}
@@ -522,7 +522,7 @@
 				m_networkMode = "ClientSimulate"
 				m_sNote = ""
 				m_tagSpans = [  ]
-				m_sequenceName = "@idle"
+				m_sequenceName = "idle"
 				m_playbackSpeed = 1.0
 				m_bLoop = true
 			}

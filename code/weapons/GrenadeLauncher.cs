@@ -1,4 +1,4 @@
-﻿using Sandbox;
+using Sandbox;
 using System;
 
 [Library( "tf_grenadelauncher", Title = "Grenade Launcher" )]
@@ -9,7 +9,7 @@ partial class GrenadeLauncher: BaseDmWeapon
 
 	public override float PrimaryRate => 1.0f;
 	public override int ClipSize => 4;
-	public override float ReloadTime => 0f;
+	public override float ReloadTime => 0.5f;
 	// reload time is 3.04
 	public override int Bucket => 2;
 
